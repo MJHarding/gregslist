@@ -35,21 +35,64 @@ nav li {
 	padding-left: 10px;
 	max-width:30%;
 	height:20px;
-
-
 	}
 
-img {
-	width:30px;
-	height:auto;
+div#search img {
+	width:25px;
+	margin:0;
+	border:1px grey solid;
+	border-radius:10%;
 }
 div#search {
 	max-width:600px;
 	width:auto;
 	padding-left:100px;
 	margin-top:20px;
+	border-radius:10%;
 }
 label#search {
 	display:block;
 	top:15px;
+}
+div#secondnav p {
+	display:inline-block;
+	border:1px black solid;
+	border-radius:5%;
+	padding-right:10px;
+	padding-left:10px;
+	margin-left:0;
+
+}
+div#secondnav {
+	margin-top:10px;
+	padding-left:100px;
+
+}
+div#secondnav span {
+	border:1px black solid;
+	margin:0;
+}
+a {
+	text-decoration: none;
+}
+input{
+	width:300px;
+}
+.listings {
+	margin-top:20px;
+}
+.listing {
+	margin-top:10px;
+	list-style:none;
+
+}
+.listing-title {
+	color:blue;
+	font-weight: bold;
+	font-size:18px;
+	margin-left:5px;
+	margin-right:5px;
+}
+.listing-date, .listing-location {
+	color:grey;
 }
